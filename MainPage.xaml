@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Issue220613_2.MainPage">
+			 
+    <ScrollView>
+		<VerticalStackLayout Spacing="25" Padding="30,0" >
+			<TableView Intent="Data" >
+				<TableRoot>
+					<TableSection Title="Data">
+						<TextCell Text="1. Introduction to .NET MAUI"
+								Detail="Learn about .NET MAUI and what it provides." />
+						<EntryCell Text="EntryCell" Placeholder="type something"></EntryCell>
+						<SwitchCell Text="SwitchCell" ></SwitchCell>
+						<ImageCell Text="Image" ImageSource="dotnet_bot.png" Height="50"/>
+						<ViewCell>
+							<Label Text="ViewCell"/>
+						</ViewCell>
+					</TableSection>
+				</TableRoot>
+			</TableView>
+			<TableView Intent="Form" >
+				<TableRoot>
+					<TableSection Title="Form">
+						<TextCell Text="1. Introduction to .NET MAUI"
+						          Detail="Learn about .NET MAUI and what it provides." />
+						<EntryCell Text="EntryCell"></EntryCell>
+						<SwitchCell Text="SwitchCell"></SwitchCell>
+						<ImageCell Text="Image" ImageSource="dotnet_bot.png" Height="50"/>
+						<ViewCell>
+							<Label Text="ViewCell"/>
+						</ViewCell>
+					</TableSection>
+				</TableRoot>
+			</TableView>
+			<TableView Intent="Menu" >
+				<TableRoot>
+					<TableSection Title="Menu">
+						<TextCell Text="1. Introduction to .NET MAUI"
+						          Detail="Learn about .NET MAUI and what it provides." />
+						<EntryCell Text="EntryCell"></EntryCell>
+						<SwitchCell Text="SwitchCell"></SwitchCell>
+						<ImageCell Text="Image" ImageSource="dotnet_bot.png" Height="50"/>
+						<ViewCell>
+							<Label Text="ViewCell"/>
+						</ViewCell>
+					</TableSection>
+				</TableRoot>
+			</TableView>
+			<TableView Intent="Settings" >
+				<TableRoot>
+					<TableSection Title="Settings">
+						<TextCell Text="1. Introduction to .NET MAUI"
+						          Detail="Learn about .NET MAUI and what it provides." />
+						<EntryCell Text="EntryCell"></EntryCell>
+						<SwitchCell Text="SwitchCell"></SwitchCell>
+						<ImageCell Text="Image" ImageSource="dotnet_bot.png" Height="50"/>
+						<ViewCell>
+							<Label Text="ViewCell"/>
+						</ViewCell>
+					</TableSection>
+				</TableRoot>
+			</TableView>
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>
